@@ -1,5 +1,5 @@
 // OpenWeatherMap API Configuration
-const API_KEY = 'YOUR_API_KEY_HERE'; // Get free key from https://openweathermap.org/api
+const API_KEY = 'cb7e32c06c818da4f6a2805274c954e7'; // Get free key from https://openweathermap.org/api
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 const GEO_URL = 'https://api.openweathermap.org/geo/1.0';
 
@@ -25,7 +25,7 @@ searchInput.addEventListener('keypress', (e) => {
 
 // Load default city on page load
 window.addEventListener('load', () => {
-    if (API_KEY === 'YOUR_API_KEY_HERE') {
+    if (API_KEY === 'cb7e32c06c818da4f6a2805274c954e7') {
         showError('Please set your OpenWeatherMap API key in script.js');
         loading.classList.remove('show');
     } else {
